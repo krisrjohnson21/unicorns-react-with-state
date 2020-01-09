@@ -77,6 +77,7 @@ const UnicornForm = (props) => {
         value="Add Unicorn"
       />
       </form>
+      <button className="button" onClick={clearForm}>Clear Form</button>
     </div>
   )
 }
